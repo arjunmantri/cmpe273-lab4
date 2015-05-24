@@ -29,7 +29,7 @@ public class Client {
         String value = crdtClient.get(1);
         System.out.println("Step 3: get(1) => " + value);
 
-        System.out.println("Exiting Client...");
+        System.out.println("Exiting Client!!!!!!!!!!");
         Unirest.shutdown();
     }
 
