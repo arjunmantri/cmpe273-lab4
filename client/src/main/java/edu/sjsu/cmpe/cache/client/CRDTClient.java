@@ -106,7 +106,7 @@ public class CRDTClient implements CRDTCallbackInterface {
     }
 
 
-    // dictResult = {"value" : [serverUrl1, serverUrl2...]]}
+   
     public String get(long key) throws InterruptedException {
         dictResults = new ConcurrentHashMap<String, ArrayList<String>>();
         countDownLatch = new CountDownLatch(servers.size());
